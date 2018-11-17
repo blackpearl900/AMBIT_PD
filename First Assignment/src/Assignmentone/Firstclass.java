@@ -34,7 +34,7 @@ public class Firstclass {
 			
 			WebElement email;
 			email = driver.findElement(By.id("input-email"));
-			email.sendKeys("adnan.adil@yahoo.com");
+			email.sendKeys("adnan.adil900@yahoo.com");
 			
 			WebElement Phone;
 			Phone = driver.findElement(By.id("input-telephone"));
