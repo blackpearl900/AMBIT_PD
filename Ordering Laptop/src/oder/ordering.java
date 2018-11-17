@@ -31,9 +31,9 @@ public class ordering {
 		
 		driver.get("https://demo.opencart.com/index.php?route=product/product&product_id=47&search=hp");
 		
-		WebElement AddtoCartdiv;
-		AddtoCartdiv = driver.findElement(By.xpath("//*[@id=\"button-cart\"]"));
-		AddtoCartdiv.click();
+		WebElement AddtoCart;
+		AddtoCart = driver.findElement(By.xpath("//*[@id=\"button-cart\"]"));
+		AddtoCart.click();
 		
 		
 		WebElement checkoutbtn;
